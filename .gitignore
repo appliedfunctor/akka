@@ -63,3 +63,6 @@ modules.xml
 *.log
 
 # End of https://www.gitignore.io/api/scala,intellij+iml
+
+### sbt ###
+target
