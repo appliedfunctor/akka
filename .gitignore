@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/scala,intellij+iml
+# Created by https://www.gitignore.io/api/scala,intellij+iml, sbt
 
 ### Intellij+iml ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
@@ -62,7 +62,18 @@ modules.xml
 *.class
 *.log
 
-# End of https://www.gitignore.io/api/scala,intellij+iml
+### SBT ###
+# Simple Build Tool
+# http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
 
-### sbt ###
-target
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+.cache
+.lib/
+
+# End of https://www.gitignore.io/api/scala,intellij+iml, sbt
